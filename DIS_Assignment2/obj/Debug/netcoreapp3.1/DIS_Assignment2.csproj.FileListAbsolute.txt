@@ -1,0 +1,13 @@
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\bin\Debug\netcoreapp3.1\DIS_Assignment2.exe
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\bin\Debug\netcoreapp3.1\DIS_Assignment2.deps.json
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\bin\Debug\netcoreapp3.1\DIS_Assignment2.runtimeconfig.json
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\bin\Debug\netcoreapp3.1\DIS_Assignment2.runtimeconfig.dev.json
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\bin\Debug\netcoreapp3.1\DIS_Assignment2.dll
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\bin\Debug\netcoreapp3.1\DIS_Assignment2.pdb
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.csprojAssemblyReference.cache
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.AssemblyInfoInputs.cache
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.AssemblyInfo.cs
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.dll
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.pdb
+C:\Users\Avinash Reddy\source\repos\DIS_Assignment2\DIS_Assignment2\obj\Debug\netcoreapp3.1\DIS_Assignment2.genruntimeconfig.cache
