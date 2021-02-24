@@ -527,7 +527,7 @@ namespace DIS_Assignment2
             try
             {
                 int sum = 0;
-                //the loop runs until
+                //the loop runs until n=sum=1
                 while (n != 1)
                 {
                     //squaring digit and adding to the sum
@@ -538,6 +538,7 @@ namespace DIS_Assignment2
 
                     }
                     n = sum;
+                    //if sum==4, then automatically it is not Happy number, it keeps on continuning 
                     if (sum == 4)
                         return false;
                     sum = 0;
@@ -572,20 +573,16 @@ namespace DIS_Assignment2
         {
             try
             {
+                //max for profit
                 int max = 0;
-                for (int i = 0; i < prices.Length; i++)
+                //this is used for initializing min price of stock on that particular day.
+                int buy_stock = prices[0];
+                for (int i = 1; i < prices.Length; i++)
                 {
-                    for (int j = i + 1; j < prices.Length; j++)
-                    {
-                        int diff = prices[j] - prices[i];
-                        if (diff > 0)
-                        {
-                            if (max < diff)
-                            {
-                                max = diff;
-                            }
-                        }
-                    }
+                    //taking min of buy_stock and prices[i]
+                    buy_stock = Math.Min(buy_stock, prices[i]);
+                    //taking max of profit between earlier max and (prices[i] - buy_stock)
+                    max = Math.Max(max, (prices[i] - buy_stock));
                 }
                 return max;
             }
@@ -623,12 +620,15 @@ namespace DIS_Assignment2
             {
                 int m = 1, n = 2;
                 int ways = 0;
+                //if steps==1, we will be having only 1 possible way to climb
                 if (steps == 1)
                     Console.WriteLine(1);
+                //if steps==2, we will be having only 2 possible ways to climb
                 if (steps == 2)
                     Console.WriteLine(2);
                 else
                 {
+                    //adding preceeding 2 elements will fetch the no. of possible ways
                     for (int i = 2; i < steps; i++)
                     {
                         ways = m + n;
@@ -636,6 +636,7 @@ namespace DIS_Assignment2
                         n = ways;
                     }
                 }
+                //printing no. of ways as output
                 Console.WriteLine(ways);
             }
             catch (Exception)
